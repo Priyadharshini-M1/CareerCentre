@@ -11,6 +11,12 @@ import JavaCodingQuestions from './Components/JavaCodingQuestions';
 import Signup from './Components/Signup';
 import Homepage from './Components/Hompage';
 
+axios.defaults.baseURL = " https://1710-13-51-171-79.ngrok-free.app";
+axios.defaults.headers = {
+  "Content-Type": "application/json",
+  "ngrok-skip-browser-warning":"69420",
+};
+
 function App() {
   return (
     <BrowserRouter>
