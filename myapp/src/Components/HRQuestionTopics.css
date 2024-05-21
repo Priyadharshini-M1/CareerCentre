@@ -1,0 +1,51 @@
+.easylevel{
+    display: flex;
+    background-color:#f8f9fa;
+    height: 200px;
+    width: 65%;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid 2px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    }
+    
+    .aptitude-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 0px;
+        margin: 20px;
+    }
+    
+    .backbtn{
+        height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    font-size: medium;
+    color: black;
+    }
+    .startbtn{
+        margin-left: 60px;
+        margin-bottom: 20px;
+        margin: 100px 150px 50px 100px;
+        height: 50px;
+    width: 600px;
+    }
+    
+    .startbtnintermediate{
+        margin-bottom: 20px;
+        margin: 100px 150px 10px 150px;
+        height: 50px;
+        width: 600px;
+    
+    }
+    
+    .startbtnadvancelevel{
+        margin: 100px 150px 10px 128px;
+        height: 50px;
+    width: 600px;
+    }
+    

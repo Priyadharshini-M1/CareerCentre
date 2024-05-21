@@ -1,0 +1,64 @@
+.aptitude-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .question-block {
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Default background color */
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+  }
+  
+  .question-block.correct {
+    background-color: #c8e6c9; /* Background color for correct answers */
+  }
+  
+  .question-block.incorrect {
+    background-color: #ffcdd2; /* Background color for incorrect answers */
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .option-btn {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border: solid 2px black;
+
+  }
+  
+  .option-btn:hover {
+    border-color: #ccc;
+  }
+  
+  .correct {
+    background-color: #81c784; /* Background color for correct option */
+  }
+  
+  .incorrect {
+    background-color: #e57373; /* Background color for incorrect option */
+  }
+  
+  .explanation {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+
+  .header{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .header button{
+    margin-left: 1000px;
+  }

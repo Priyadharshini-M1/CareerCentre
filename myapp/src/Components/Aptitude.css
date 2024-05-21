@@ -1,0 +1,61 @@
+.easylevel{
+    display: flex;
+    background-color: #f8f9fa; /* Light gray background */
+    height: 200px;
+    width: 65%;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid 2px #007bff; /* Professional blue border */
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+.aptitude-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 20px;
+}
+
+.backbutton{
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: #007bff; /* Professional blue background */
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+    border: solid 2px black;
+}
+
+.startbutton, .startbtninter, .startbtnadvance{
+    height: 50px;
+    width: 600px;
+    background-color: #007bff; /* Professional blue background */
+    color: white;
+    font-size: medium;
+    border: solid 2px black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.startbutton:hover, .startbtninter:hover, .startbtnadvance:hover{
+    background-color: #0056b3; /* Darker blue for hover state */
+}
+
+.startbutton{
+    margin: 100px 150px 50px 100px;
+    border: solid 2px black;
+}
+
+.startbtninter{
+    margin: 100px 150px 10px 10px;
+    border: solid 2px black;
+}
+
+.startbtnadvance{
+    margin: 100px 150px 10px 60px;
+    border: solid 2px black;
+}

@@ -1,0 +1,85 @@
+.aptitude-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .backbtn {
+    padding: 10px 20px;
+    background-color: #ccffcc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid 2px black;
+  }
+  
+  .hrquestions-docker {
+    margin-top: 20px;
+  }
+  
+  .question-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa; /* Light background color */
+    border: solid 2px black;
+    width: 700px;
+    margin-left: 400px;
+  }
+  
+  .question-item h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  textarea {
+    width: 97%;
+    height: 150px; /* Adjust height as needed */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+    border: solid 2px;
+  }
+  
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px 100px 20px 0px;
+    border: solid 2px black;
+  }
+  
+  .view-btn {
+    background-color: #28a745; /* Green for View Answer button */
+    color: #fff;
+    border: solid 2px black;
+  }
+  
+  .check-btn {
+    background-color: #dc3545; /* Red for Check Answer button */
+    color: #fff;
+    border: solid 2px black;
+  }
+  
+  .efficiency {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  .docker-text{
+    color: white;
+    margin-left: 400px;
+    font-size: larger;
+  }

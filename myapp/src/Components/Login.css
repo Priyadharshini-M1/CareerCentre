@@ -1,0 +1,60 @@
+/* Login.css */
+.loginForm {
+  background: #f8f9fa; /* Light gray background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+  margin: 100px auto;
+}
+
+.loginForm h1 {
+  margin-bottom: 20px;
+  color: #333; /* Dark gray for the heading */
+}
+
+.loginForm label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #636e72; /* Medium gray for labels */
+}
+
+.loginForm input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dfe6e9; /* Light gray for input borders */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.loginForm button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Professional blue for buttons */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.loginForm button:hover {
+  background-color: #0056b3; /* Darker blue for hover state */
+  color: white;
+}
+
+.loginForm button:nth-of-type(2) {
+  background-color: #007bff; /* Professional blue for the second button */
+  color: white;
+}
+
+.loginForm button:nth-of-type(2):hover {
+  background-color: #0056b3; /* Darker blue for hover state */
+  color: white;
+}

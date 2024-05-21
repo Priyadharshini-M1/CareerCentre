@@ -1,0 +1,63 @@
+.home-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 20px;
+}
+
+.login-btn{
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: #007bff; /* Changed to a professional blue color */
+    border-radius: 10px;
+    font-size: medium;
+    color: white;
+}
+
+.aptitudeModule{
+    display: flex;
+    background-color: #f8f9fa; /* Changed to a light gray color */
+    height: 200px;
+    width: 65%;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid 2px #007bff; /* Border color changed to match the login button */
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+.container h4{
+    margin-top: 70px;
+    margin-right: 20px;
+    line-height: 2;
+    color: #333; /* Changed to a dark gray color for better readability */
+}
+
+button{
+    height: 30px;
+    margin-top: 200px;
+    margin-right: 20px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #007bff; /* Changed to a professional blue color */
+    color: white;
+    margin-bottom: 100px;
+}
+
+.viewHrButton{
+    margin-left: 145px;
+}
+
+.viewcodingButton{
+    margin-left: 32px;
+}
+
+.container{
+    background-color: #f8f9fa; /* Changed to a light gray color */
+}
+
+h1{
+    color: #333; /* Changed to a dark gray color for better readability */
+}
